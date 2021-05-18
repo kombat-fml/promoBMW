@@ -2,4 +2,4 @@
 
 ## Ссылка на демо
 
-[перейти на github pages]: https://kombat-fml.github.io/promoBMW/
+[перейти на github pages](https://kombat-fml.github.io/promoBMW/)
