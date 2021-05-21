@@ -30,8 +30,12 @@ const scrolled = (event) => {
   }
 };
 
-document.body.addEventListener('click', scrolled);
+// document.body.addEventListener('click', scrolled);
 
+const linkElems = document.querySelectorAll('a[href^="#"]:not(a[href="#"])');
+for (const link of linkElems) {
+  link.addEventListener('click', scrolled);
+}
 // const smoothScrollElems = document.querySelectorAll(
 //   'a[href^="#"]:not(a[href="#"])'
 // );
